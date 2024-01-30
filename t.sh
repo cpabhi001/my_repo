@@ -7,7 +7,9 @@ read -p "enter a number" a
 read -p "enter a number" b
 
 c=$((a + b))
-d=$((a -  ))
+d=$((a - b))
+
+echo "this is a calculator"
 echo $c
 
 echo $d
